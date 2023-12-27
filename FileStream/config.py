@@ -20,7 +20,7 @@ class Telegram:
     LOG_CHANNEL = -1001712664367
     MODE = env.get("MODE", "primary")
     SECONDARY = True if MODE.lower() == "secondary" else False
-    AUTH_USERS = "6360808740 6069809284 6238111690 5872654872"
+    AUTH_USERS = 6360808740 6069809284 6238111690 5872654872
 
 class Server:
     PORT = int(env.get("PORT", 8080))
